@@ -383,14 +383,9 @@ team
 .section-team{
     background: #f4f4fd;
 }
-.team-container{
-    flex-direction: column;
-    gap: 72px;
-}
 .team-title{
     min-width:162px;
     padding-top: 72px;
-    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -401,7 +396,7 @@ team
 .team-list{
     display:block;
     gap:72px;
-    padding: 0 16px;
+    padding: 0 16px 72px 0;
     border-radius: 0 0 4px 4px;
 
 }

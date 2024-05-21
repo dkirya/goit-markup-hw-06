@@ -235,6 +235,7 @@ img {
 }
 .team-container{
     flex-direction: column;
+    gap: 72px;
 }
 .team-title{
     min-width:218px;
