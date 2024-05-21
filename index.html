@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- ====== HEADER ====== -->
-    <header class="page-header">
+    <header class="page-header ">
         <div class="container page-header-container">
             <nav class="page-navigation">        
                 <a class="page-logo" href="./index.html">Web<span class="logo-black">Studio</span></a>
@@ -39,6 +39,10 @@
                     </li>
                 </ul>
             </address>
+            <button class="btn-burger" type="button">
+                <svg class="icon-burger" width="24" height="24">
+                    <use href="images/icons.svg#icon-burger"></use>
+                </svg></button>
         </div>
     </header>
     <main>
@@ -280,7 +284,7 @@
             </div>
         </section>
         <!-- ====== PORTFOLIO ====== -->
-        <section class="section-portfolio section-paddings">
+        <section class="section-portfolio section-paddings hidden">
             <div class="container portfolio-container">
                 <h2 class="portfolio-title">Our Portfolio</h2>
                 <ul class="portfolio-list">
@@ -379,7 +383,7 @@
         </section>
     </main>
   <!-- ====== FOOTER ====== -->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
         <div class="container footer-container">
             <div class="footer-logo-container">
                 <a class="footer-logo" href="./index.html">Web<span class="logo-footer-white">Studio</span></a>
@@ -437,7 +441,7 @@
         </div>
     </footer>
 <!-- ====== BACKDROP ====== -->
-        <div class="backdrop is-open">
+        <div class="backdrop is-open hidden">
             <div class="modal">
                 <button class="modal-close-button" type="button">
                     <svg class="modal-close-icon" width="8" height="8">
